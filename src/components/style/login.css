@@ -1,0 +1,124 @@
+@media screen and (min-width: 1000px) {
+  .main-login-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+   position: fixed;
+  }
+  .upper-login-container {
+    background: #0089ed;
+    height: 50%;
+    width: 100%;
+  }
+  .upper-login-container > p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 20px;
+  }
+  .upper-login-heading {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 35px;
+  }
+  .upper-login-heading > img {
+    height: 285px;
+    width: 385px;
+    width: fit-content;
+    /* background-color: red; */
+  }
+  .upper-login-heading > div {
+    /* background-color: red; */
+    width: 47%;
+    padding: 10px 15px;
+  }
+  .upper-login-heading > div > p:first-child {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #ffffff;
+  }
+  .upper-login-heading > div > p:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  .upper-login-heading > div > p:nth-child(3) {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 23px;
+    color: #ffffff;
+  }
+  .user-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eff8ff;
+    border-radius: 9px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    transition: all 0.5s;
+  }
+  .user-avatar:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .user-avatar > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-avatar > img:first-child {
+    height: 13px;
+    width: 13px;
+    margin-left: 75%;
+  }
+  .user-avatar > img:nth-child(2) {
+    height: 76px;
+    width: 76px;
+  }
+  .user-avatar > div > p:first-child {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .user-avatar > div > p:nth-child(2) {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #adadad;
+  }
+  .lower-login-container {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50%;
+  }
+  .dispaly-avatar {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    padding-left: 25px;
+  }
+  .lower-login-container > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 25px;
+  }
+  .login-form{
+    position: absolute;
+    left: 60%;
+    width: 100%;
+    top: 10%;
+  }
+}
